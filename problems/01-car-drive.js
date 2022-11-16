@@ -1,12 +1,13 @@
 // Your code here
 class Car {
-	constructor(speed = 0){
-		this.speed = speed
+	constructor(){
+		this.speed = 0
 	}
 	drive(newSpeed){
 		this.speed += newSpeed
 		return this.speed
 	}
+}
 
 /*****************************************************************************/
 /***************** DO NOT MODIFY ANYTHING UNDER THIS LINE ********************/
