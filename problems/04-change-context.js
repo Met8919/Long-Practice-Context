@@ -1,5 +1,7 @@
-function changeContext(func, obj) {
-  return func.call(obj)
+function changeContext(func, bat) {
+  const x = func.bind(bat);
+
+  return x();
 }
 
 /*****************************************************************************/
